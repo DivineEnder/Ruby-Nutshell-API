@@ -4,5 +4,5 @@ Rake::TestTask.new do |t|
 	t.libs << 'test'
 end
 
-desc "Run tests"
-task :do_tests => :test
+desc "Test api functionality"
+task :test_api => :test
